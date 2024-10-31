@@ -1,0 +1,193 @@
+body{
+    background-image: url(/Users/nakanotakayuki/Library/CloudStorage/OneDrive-青森大学/enter/白背景.jpg)   
+}
+
+body{
+    margin: 40px;
+}
+
+h1{
+    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+/* HEADER
+------------------------------- */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+/* .logo {
+    width: 100px;
+    margin-top: 20px;
+    height: 50px;
+} */
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+}
+.main-nav a {
+    color: rgb(255, 255, 255);
+}
+.main-nav a:hover {
+    color: #0bd;
+}
+
+.wrapper {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 10px 20%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* マーク
+------------------------------- */
+#circlebass{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 310px;
+    top: 175px;
+}
+#circlesnareL{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 208px;
+    top: 343px;
+}
+#circlesnareR{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 208px;
+    top: 343px;
+}
+#circleLtomL{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 440px;
+    top: 345px;
+}
+#circleLtomR{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 440px;
+    top: 345px;
+}
+#circleMtomL{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 355px;
+    top: 245px;
+}
+#circleMtomR{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 355px;
+    top: 245px;
+}
+#circleHtomL{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 250px;
+    top: 245px;
+}
+#circleHtomR{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 250px;
+    top: 245px;
+}
+#circlehatclL{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 120px;
+    top: 320px;
+}
+#circlehatclR{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 120px;
+    top: 320px;
+}
+#circlehatop{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 120px;
+    top: 280px;
+}
+#circlecrash{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 175px;
+    top: 205px;
+}
+#circleride{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    left: 450px;
+    top: 220px;
+}
